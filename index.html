@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đăng ký Facebook</title>
+  </head>
+  <body>
+    <h1>Facebook</h1>
+    <h2>Tạo tài khoản mới</h2>
+    <form>
+      <label for="firstname">Họ:</label><br />
+      <input type="text" id="firstname" name="firstname" required /><br /><br />
+
+      <label for="lastname">Tên:</label><br />
+      <input type="text" id="lastname" name="lastname" required /><br /><br />
+
+      <label>Giới tính:</label><br />
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Nữ</label>
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="male">Nam</label>
+      <input type="radio" id="custom" name="gender" value="custom" />
+      <label for="custom">Tùy chỉnh</label>
+
+      <label for="email">Số di động hoặc email:</label><br />
+      <input type="text" id="email" name="email" required /><br /><br />
+
+      <label for="password">Mật khẩu mới:</label><br />
+      <input
+        type="password"
+        id="password"
+        name="password"
+        required
+      /><br /><br />
+
+      <button type="submit">Đăng ký</button>
+      <a href="#">Bạn đã có tài khoản?</a>
+    </form>
+  </body>
+</html>
